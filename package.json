@@ -1,0 +1,36 @@
+{
+  "name": "loop-range",
+  "version": "1.0.0",
+  "description": "Loop between a range of numbers. Works with any range, and negative values.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubicon2/loop-range.git"
+  },
+  "keywords": [
+    "loop",
+    "looped",
+    "range",
+    "ranged",
+    "number",
+    "float",
+    "int",
+    "array",
+    "arrays",
+    "index",
+    "indices"
+  ],
+  "author": "rubicon2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubicon2/loop-range/issues"
+  },
+  "homepage": "https://github.com/rubicon2/loop-range#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3"
+  }
+}
