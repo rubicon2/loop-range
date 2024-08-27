@@ -1,6 +1,6 @@
 {
   "name": "loop-range",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loop between a range of numbers. Works with any range, and negative values.",
   "main": "index.js",
   "scripts": {
