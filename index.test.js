@@ -141,6 +141,20 @@ describe('loopInt', () => {
       expect(loopInt(min, max, value)).toBe(expected);
     },
   );
+
+  test.each([
+    [0, 5, 4.99999999, 0],
+    [0, 10, 9.99999999, 0],
+    [-5, 5, 4.999999999, -5],
+    [-10, 7, 6.99999999, -10],
+    [0, 5, -0.9999999999, 4],
+    [0, 10, -0.999999999, 9],
+  ])(
+    'returns correct value if looping a float very close to min or max',
+    (min, max, value, expected) => {
+      expect(loopInt(min, max, value)).toBe(expected);
+    },
+  );
 });
 
 describe('loopNumber', () => {

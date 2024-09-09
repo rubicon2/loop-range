@@ -15,7 +15,9 @@ function loopNumber(min, max, value) {
 }
 
 function loopInt(min, max, value) {
-  return Math.round(loopNumber(min, max, value));
+  // Must round value before looping, otherwise values very near to max will
+  // not get looped round to the min but then get rounded up to a number outside the range.
+  return Math.round(loopNumber(min, max, Math.round(value)));
 }
 
 module.exports = {
