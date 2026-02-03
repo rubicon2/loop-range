@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watch",
-    "types": "rm -f ./*.d.ts* && npx tsc"
+    "types": "rm -f ./*.d.ts* && npx tsc",
+    "publish": "npm run types && npm publish"
   },
   "repository": {
     "type": "git",
