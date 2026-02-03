@@ -31,6 +31,7 @@
   "homepage": "https://github.com/rubicon2/loop-range#readme",
   "devDependencies": {
     "jest": "^29.7.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "typescript": "^5.9.3"
   }
 }
